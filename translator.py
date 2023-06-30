@@ -137,7 +137,7 @@ if edit_errors == []:
 			print(Fore.RED+"Error occurred while editing file."+Fore.WHITE)
 			print(e)
 else:
-	print(Fore.RED+"\n\n!!!FINDED CRITICAL ERRORS!!!")
+	print(Fore.RED+"\n\n!!!FOUND CRITICAL ERRORS!!!")
 	s = 0
 	for error in edit_errors_full:
 		s+=1
